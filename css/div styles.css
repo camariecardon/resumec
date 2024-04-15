@@ -1,0 +1,48 @@
+/*general style for the website*/
+.common {
+    /*position:absolute;*/
+    background-color: rgb(232, 163, 80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(62, 45, 25);
+}
+/*three different divs/sections in my website*/
+.header{
+    top: 5px;
+    left: 5px;
+    right:5px;
+    height:100px;
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+    color:rgb(62, 40, 18);    
+}
+.mainbody{
+    top:114px;
+    left:114px;
+    right: 114px;
+    bottom: 39px;
+    text-align: left;
+    background-color: rgb(136, 190, 237);
+}
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    text-align:center;
+    font-style: italic;
+    font-size: 10px;
+    background-color:aliceblue;
+}
+/*way to center images, graphs and videos*/
+.img {
+    display: flex;
+    justify-content: center;
+}
+.spaced-text {
+    letter-spacing: 2px;
+}
+.change:hover {
+    /*hover means when you put your mouse over it it applies your new change class.*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
